@@ -1,9 +1,6 @@
 /* ========================================================================== */
 /* File: utils.h
- *
- * Project name: CS50 Tiny Search Engine
- * Component name: Crawler
- *
+
  * This file contains helpful utility macros.
  *
  */
