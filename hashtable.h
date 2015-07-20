@@ -1,6 +1,7 @@
 /* ========================================================================== */
 /* File: hashtable.h
  *
+ * Author: Yachen Sun
  * This file contains the definitions for a hashtable of strs.
  *
  */
