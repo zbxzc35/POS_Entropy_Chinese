@@ -1,14 +1,7 @@
 /* ========================================================================== */
 /* File: hashtable.c
  *
- * Project name: CS50 Tiny Search Engine
- * Component name: Indexer
- *
- * Author:
- * Date:
- *
- * You should include in this file your functionality for the hashtable as
- * described in the assignment and lecture.
+ * Hashtable implementation
  */
 /* ========================================================================== */
 
