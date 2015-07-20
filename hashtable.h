@@ -1,9 +1,6 @@
 /* ========================================================================== */
 /* File: hashtable.h
  *
- * Project name: CS50 Tiny Search Engine
- * Component name: Indexer
- *
  * This file contains the definitions for a hashtable of strs.
  *
  */
