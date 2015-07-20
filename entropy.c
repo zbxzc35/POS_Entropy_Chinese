@@ -1,3 +1,13 @@
+/* ========================================================================== */
+/* File: entropy.c
+ *
+ * Author: Yachen Sun
+ * Description: This file streamlines the POS entropy calculation of Chinese texts.
+ *		The Chinese text files needs to be processed by the Stanford
+ *		segmenter and POS tagger first.
+ */
+/* ========================================================================== */
+
 #define _GNU_SOURCE			// required for "getline"
 #include <stdio.h>
 #include <string.h>
@@ -7,7 +17,7 @@
 #include "hashtable.h"                       // hashtable functionality
 #include "update.h"
 
-char utf8_look_for_table[] = 
+char utf8_look_for_table[] = 			// UTF8 utilities
 {
 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
@@ -150,7 +160,7 @@ int main(int argc, char* argv[])
 
 
 
-	if (outf)
+    if (outf)
     	fclose(outf);
 
     if (fp)
